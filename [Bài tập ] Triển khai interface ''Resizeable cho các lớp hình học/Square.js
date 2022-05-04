@@ -22,6 +22,9 @@ var Square = /** @class */ (function (_super) {
     function Square(name, width) {
         return _super.call(this, width, width, name) || this;
     }
+    Square.prototype.howtoColor = function () {
+        return ' Color all four sides..';
+    };
     return Square;
 }(Rectangle_1.Rectangle));
 exports.Square = Square;

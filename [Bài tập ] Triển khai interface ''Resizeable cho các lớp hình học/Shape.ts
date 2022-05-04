@@ -9,6 +9,11 @@ export class Shape {
         return `I am a shape. My name is ${this.name}`;
     }
 }
+
+
 export interface Resizeable {
     resize(percent:number)
+}
+export interface Colorable {
+    howtoColor()
 }
