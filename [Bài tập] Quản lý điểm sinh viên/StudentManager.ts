@@ -60,6 +60,7 @@ export class StudentManager<T> {
             if (currentStudent.score = max) {
                 studentsMaxScore.push(currentStudent)
             }
+            currentStudent=currentStudent.next
         }
         return studentsMaxScore
     }
